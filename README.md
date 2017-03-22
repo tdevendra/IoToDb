@@ -1,7 +1,10 @@
 # IoToDb
 Raspberry Pi to Cassandra
 
-Sensor - Gateway - Publish (MQTT Broker/Azure IoT Hub) <--- Subscribe to IoT Hub from sever host/center (Dashboard / App) -------- ------ Push to Cloud DB
+Sensor with Arduino with XBee (Tx) ---- (Rx) Xbee with Raspberry Pi Gateway --- 
+                                            ---> Publish (MQTT Broker/Azure IoT Hub) 
+                                                   MQTT Broker <--- Subscribe to IoT Hub from sever host/center (Dashboard / App) 
+                                                   MQTT Broker --------------> Push to Cloud DB
 
 
 
