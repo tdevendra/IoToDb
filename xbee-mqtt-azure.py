@@ -186,7 +186,7 @@ if __name__ == '__main__':
 #print ser.read()
 
 #mqttc = mqtt.Client("python_pub")
-#mqttc.connect("192.168.1.119", 1883)
+#mqttc.connect("<Raspberry-pi-mqtt-IP-address>", 1883)
 
 # Read Data from Sensor using XBee and
 # write data to MQTT 
